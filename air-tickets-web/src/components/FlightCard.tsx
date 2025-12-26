@@ -1,4 +1,4 @@
-import { Flight } from '../types/flight'
+import type { Flight } from '../types/flight'
 import { Link } from 'react-router-dom'
 
 export default function FlightCard({ flight }: { flight: Flight }) {

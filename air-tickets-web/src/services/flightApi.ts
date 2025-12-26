@@ -1,4 +1,4 @@
-import { Flight } from '../types/flight'
+import type { Flight } from '../types/flight'
 
 const mockFlights: Flight[] = [
   {
