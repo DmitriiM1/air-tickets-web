@@ -9,6 +9,7 @@ const mockFlights: Flight[] = [
     departureTime: '2025-02-10T08:30',
     arrivalTime: '2025-02-10T10:15',
     price: 320,
+    imagePath: '/images/destinations/new-york.jpg',
   },
   {
     id: '2',
@@ -18,6 +19,7 @@ const mockFlights: Flight[] = [
     departureTime: '2025-02-11T07:00',
     arrivalTime: '2025-02-11T10:45',
     price: 540,
+    imagePath: '/images/destinations/los-angeles.jpg',
   },
   {
     id: '3',
@@ -27,6 +29,7 @@ const mockFlights: Flight[] = [
     departureTime: '2025-02-09T14:20',
     arrivalTime: '2025-02-09T16:05',
     price: 280,
+    imagePath: '/images/destinations/chicago.jpg',
   },
   {
     id: '4',
@@ -36,6 +39,7 @@ const mockFlights: Flight[] = [
     departureTime: '2025-02-12T09:10',
     arrivalTime: '2025-02-12T13:30',
     price: 610,
+    imagePath: '/images/destinations/miami.jpg',
   },
   {
     id: '5',
@@ -45,6 +49,7 @@ const mockFlights: Flight[] = [
     departureTime: '2025-02-15T18:45',
     arrivalTime: '2025-02-16T07:20',
     price: 890,
+    imagePath: '/images/destinations/frankfurt.jpg',
   },
   {
     id: '6',
@@ -54,6 +59,7 @@ const mockFlights: Flight[] = [
     departureTime: '2025-02-13T21:00',
     arrivalTime: '2025-02-14T08:10',
     price: 820,
+    imagePath: '/images/destinations/london.jpg',
   },
   {
     id: '7',
@@ -63,6 +69,7 @@ const mockFlights: Flight[] = [
     departureTime: '2025-02-14T19:30',
     arrivalTime: '2025-02-15T09:00',
     price: 860,
+    imagePath: '/images/destinations/paris.jpg',
   },
 ]
 export function getFlights(): Promise<Flight[]> {
