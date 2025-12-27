@@ -7,7 +7,7 @@ export default function FlightCard({ flight }: { flight: Flight }) {
 
             {flight.imagePath && (
                 <img
-                    src={flight.imagePath}
+                    src={`${import.meta.env.BASE_URL}${flight.imagePath?.replace(/^\//, '')}`}
                     alt={`${flight.to} destination`}
                     className="w-full h-40 object-cover rounded-lg mb-4"
                     loading="lazy"
