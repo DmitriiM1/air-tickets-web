@@ -158,11 +158,11 @@ export default function SearchPage() {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-10 h-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <select
             value={sortOrder}
             onChange={e => setSortOrder(e.target.value as 'asc' | 'desc')}
-            className="border p-2 rounded"
+            className="border p-2 rounded w-50 h-12"
           >
             <option value="asc">Price: Low to High</option>
             <option value="desc">Price: High to Low</option>
@@ -171,7 +171,7 @@ export default function SearchPage() {
           <select
             value={airlineFilter}
             onChange={e => setAirlineFilter(e.target.value)}
-            className="border p-2 rounded"
+            className="border p-2 rounded w-50 h-12"
           >
             <option value="all">All airlines</option>
             {airlines.map(a => (

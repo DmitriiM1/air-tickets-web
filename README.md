@@ -15,4 +15,8 @@ Web client for searching and comparing flight tickets with filters by price, dat
 - React Router
 
 ### Live Demo
+<<<<<<< HEAD
 https://dmitriim1.github.io/air-tickets-web/
+=======
+https://dmitriim1.github.io/air-tickets-web/
+>>>>>>> 44f367f (fix - fix mobile layout)
